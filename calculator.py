@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def show_form():
-    return render_template('index1.html')
+    return render_template('index.html')
 
 @app.route("/math",methods = ['POST'])
 def calculator_check():
